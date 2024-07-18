@@ -37,7 +37,7 @@ body {
 
 @media (orientation:portrait) {
     header {
-        border: white 3px ridge;
+        border: white 3px solid;
         min-height: 200px;
         width: 95%;
         margin: 10px auto;
@@ -47,7 +47,7 @@ body {
     }
 
     nav {
-        border: 3px ridge white;
+        border: 3px solid white;
         width: 95%;
         height: 50px;
         margin: 20px auto;
@@ -58,7 +58,7 @@ body {
 
 
     main {
-        border: white 3px ridge;
+        border: white 3px solid;
         min-height: 200px;
         width: 95%;
         margin: 10px auto;
@@ -73,7 +73,7 @@ body {
 
 @media (min-aspect-ratio:16/9) {
     header {
-        border: white 3px ridge;
+        border: white 3px solid;
         min-height: 200px;
         width: 41.7%;
         margin: 10px auto;
@@ -83,7 +83,7 @@ body {
     }
 
     nav {
-        border: 3px ridge white;
+        border: 3px solid white;
         width: 41.7%;
         height: 50px;
         margin: 20px auto;
@@ -94,9 +94,40 @@ body {
 
 
     main {
-        border: white 3px ridge;
+        border: white 3px solid;
         min-height: 200px;
         width: 800px;
+        margin: 10px auto;
+        background-color: black;
+        box-shadow: 3px 3px 7px black;
+    }
+}
+
+@media (min-aspect-ratio:4/3) {
+    header {
+        border: white 3px solid;
+        min-height: 200px;
+        width: 60%;
+        margin: 10px auto;
+        background-color: black;
+        text-align: center;
+        box-shadow: 3px 3px 7px black;
+    }
+
+    nav {
+        border: 3px solid white;
+        width: 60%;
+        height: 50px;
+        margin: 20px auto;
+        background-color: black;
+        text-align: center;
+        box-shadow: 3px 3px 7px black;
+    }
+
+    main {
+        border: white 3px solid;
+        min-height: 200px;
+        width: 60%;
         margin: 10px auto;
         background-color: black;
         box-shadow: 3px 3px 7px black;
@@ -195,11 +226,15 @@ h4 {
     height: 91vh;
 }
 
-#settingsButton {
+#settingsBtn {
     position: fixed;
-    right: 100%;
-    height: 40px;
-    width: 40px;
+    right:  10px;
+    bottom: 10px;
+    min-height: 50px;
+    min-width: 50px;
+    height: 3vw;
+    width:  3vw;
     color: #47779e;
     background-color: aqua;
+    border-radius: 100%;
 }
