@@ -1,0 +1,10 @@
+[
+    {
+        "id": 0,
+        "title": "John Doe at the End of the World",
+        "date": "Published on [11/07/24]",
+        "cover": "./covers/.png",
+        "synopsis": "A zombie, a mountain, an alien, a cowboy and a liar walk into a bar.",
+        "story": "<iframe id=\"storyiframe\" src=\"./storyfiles/JohnDoeattheEndoftheWorldKindle.html\" title=\"John Doe at the End of the World.\">"
+    }
+]

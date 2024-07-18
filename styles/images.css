@@ -1,0 +1,18 @@
+.left {
+    float: left;
+    margin: 1px;
+    margin-right: 10px;
+}
+
+.quarter {
+    width: 25%;
+}
+.third {
+    width: 33%
+}
+.forty {
+    width: 40%;
+}
+.half {
+    width: 50%;
+}
