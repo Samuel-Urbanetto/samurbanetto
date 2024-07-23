@@ -35,7 +35,7 @@ body {
     }
 }
 
-@media (orientation:portrait) {
+@media (orientation:portrait) and (max-aspect-ratio:4/5) {
     header {
         border: white 3px solid;
         min-height: 200px;
@@ -103,7 +103,8 @@ body {
     }
 }
 
-@media (min-aspect-ratio:4/3) {
+
+@media (min-aspect-ratio:1/1) {
     header {
         border: white 3px solid;
         min-height: 200px;
